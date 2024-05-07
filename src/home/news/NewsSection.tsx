@@ -2,14 +2,7 @@ import { Grid } from "@mui/material";
 
 const NewsSection = () => {
   return (
-    <Grid
-      container
-      columnSpacing={3}
-      sx={{
-        width: "90%",
-        m: "auto",
-      }}
-    >
+    <Grid container columnSpacing={3} width="90%" m="auto">
       <Grid item xs={12} sm={6}>
         <h2>Sub overskrift</h2>
         <p>
