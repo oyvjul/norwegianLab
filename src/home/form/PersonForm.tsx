@@ -34,11 +34,11 @@ const PersonForm = () => {
   }, [validateForm]);
 
   return (
-    <Box width={500} ml={4}>
+    <Box maxWidth={500} ml={4} sx={{overflowX: "hidden !important"}}>
       <h2>Skjema</h2>
       <form onSubmit={handleSubmit}>
         <Grid container spacing={2} mb={2}>
-          <Grid item xs={7} sm={10}>
+          <Grid item xs={10} sm={10}>
             <TextField
               label="Fullt navn"
               name="fullName"
@@ -50,7 +50,7 @@ const PersonForm = () => {
               fullWidth
             />
           </Grid>
-          <Grid item xs={7} sm={10}>
+          <Grid item xs={10} sm={10}>
             <TextField
               label="E-postadresse"
               name="email"
@@ -62,7 +62,7 @@ const PersonForm = () => {
               fullWidth
             />
           </Grid>
-          <Grid item xs={7} sm={10}>
+          <Grid item xs={10} sm={10}>
             <TextField
               label="Gate"
               name="street"
@@ -74,7 +74,7 @@ const PersonForm = () => {
               fullWidth
             />
           </Grid>
-          <Grid item xs={7} sm={6}>
+          <Grid item xs={10} sm={6}>
             <TextField
               label="By"
               name="city"
@@ -86,7 +86,7 @@ const PersonForm = () => {
               fullWidth
             />
           </Grid>
-          <Grid item xs={7} sm={4}>
+          <Grid item xs={10} sm={4}>
             <TextField
               label="Postnummer"
               name="postalCode"
@@ -98,7 +98,7 @@ const PersonForm = () => {
               fullWidth
             />
           </Grid>
-          <Grid item xs={7} sm={10}>
+          <Grid item xs={10} sm={10}>
             <TextField
               label="Land"
               name="country"
