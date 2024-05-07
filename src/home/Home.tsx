@@ -1,6 +1,6 @@
 import { useRecoilValue } from "recoil";
 import { PageState, pageStateAtom } from "../utils/pageState";
-import TopSection from "./TopSection";
+import TopSection from "./top/TopSection";
 import PersonForm from "./form/PersonForm";
 import NewsSection from "./news/NewsSection";
 

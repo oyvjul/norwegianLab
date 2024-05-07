@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { Fab } from "@mui/material";
 import { useSetRecoilState } from "recoil";
-import { PageState, pageStateAtom } from "../utils/pageState";
+import { PageState, pageStateAtom } from "../../utils/pageState";
 
 const StyledHome = styled("div")({
   height: "40vh",
